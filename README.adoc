@@ -1,0 +1,14 @@
+= Coolstore Demo Setup
+
+To run the demo:
+
+. Create an empty directory and cd into it
+
+    mkdir coolstore && cd coolstore
+
+. Run the download script
+
+    bash <(curl -s https://raw.githubusercontent.com/coolstore/setup/master/download.sh)
+
+. Make sure that you are logged-in to a openshift instance with enough resources
+. Run one of the setup scripts
