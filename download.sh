@@ -29,9 +29,8 @@ if [ ! -z "$(ls)" ]; then
     fi
 fi
 
-# repos=(setup common catalog gateway inventory sso ui)
-repos=(setup common)
-
+repos=(setup common catalog shoppingcart inventory gateway sso web-ui)
+#repos=(setup common)
 
 for repo in "${repos[@]}"
 do
